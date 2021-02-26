@@ -40,6 +40,7 @@ if (eta < 18){
   prezzoScontato = prezzoStandard - convSconto
   // document.getElementById("importo_sconto").innerHTML = convSconto.toFixed(2);
   // document.getElementById("prezzo_scontato").innerHTML = prezzoScontato.toFixed(2);
+  document.getElementById("prova").innerHTML = '<span>tocca qui</span><img src="img/bambino.jpg" alt="logo">'
   document.writeln('lei ha diritto a uno sconto di ' + convSconto.toFixed(2) + '&euro; quindi il suo totale è di ' + prezzoScontato.toFixed(2) + '&euro;');
 }
 else if(eta >= 65){
@@ -47,6 +48,7 @@ else if(eta >= 65){
   prezzoScontato = prezzoStandard - convSconto
   // document.getElementById("importo_sconto").innerHTML = convSconto.toFixed(2);
   // document.getElementById("prezzo_scontato").innerHTML = prezzoScontato.toFixed(2);
+  document.getElementById("prova").innerHTML = '<span>tocca qui</span><img src="img/anziano.jpg" alt="logo">'
   document.writeln('lei ha diritto a uno sconto di ' + convSconto.toFixed(2) + '&euro; quindi il suo totale è di ' + prezzoScontato.toFixed(2) + '&euro;');
 }
 else{

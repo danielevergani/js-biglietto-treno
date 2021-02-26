@@ -17,3 +17,21 @@ header img{
 h1{
   margin: auto;
 }
+
+#prova {
+  width: 100px;
+  height: 100px;
+}
+
+#prova img{
+  height: 0;
+  transition: height 1s;
+}
+
+#prova:hover span{
+  display: none;
+}
+
+#prova:hover img{
+  height: 100%;
+}
